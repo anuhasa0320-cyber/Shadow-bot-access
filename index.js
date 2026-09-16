@@ -10,8 +10,8 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 let sock;
-const TARGET_CHANNEL_JID = "YOUR_CHANNEL_ID@newsletter"; // මෙතැනට ඔයාගේ WhatsApp Channel එකේ JID එක දාන්න (උදා: 1203633xxxxxx@newsletter)
-const BOT_PHONE_NUMBER = "947XXXXXXXX"; // මෙතැනට බොට්ගේ WhatsApp නම්බර් එක දාන්න
+const TARGET_CHANNEL_JID = "120363430002311340@newsletter"; // මෙතැනට ඔයාගේ WhatsApp Channel එකේ JID එක දාන්න (උදා: 1203633xxxxxx@newsletter)
+const BOT_PHONE_NUMBER = "94766615142"; // මෙතැනට බොට්ගේ WhatsApp නම්බර් එක දාන්න
 
 // දිනය සහ වෙලාව ලබාගැනීමේ ෆන්ෂන් එක
 function getDateTime() {
